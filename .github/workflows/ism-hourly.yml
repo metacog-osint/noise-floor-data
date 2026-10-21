@@ -1,7 +1,7 @@
 name: ism-hourly
 on:
   schedule:
-    - cron: "23 * * * *"   # hourly at :23 UTC; ESA posts each nowcast about 2 h after its valid time
+    - cron: "23 * * * *"   # hourly at :23 UTC; ESA posts each nowcast about 2 h after its valid time (re-registered 21 Oct)
   workflow_dispatch:
 permissions:
   contents: write
