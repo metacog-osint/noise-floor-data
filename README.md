@@ -6,7 +6,7 @@ Raw data archives for [Noise Floor](https://github.com/metacog-osint/noise-floor
 
 ESA's Ionospheric Scintillation Monitoring service (CLS, on the ESA Space Weather Service Network) publishes a worldwide
 nowcast of amplitude scintillation (S4), phase scintillation (sigma-phi) and TEC on a 2.5° grid, but only the current
-hour; there is no public archive. `.github/workflows/ism-hourly.yml` runs `capture/ism_capture.py` every hour at :23 UTC
+hour; there is no public archive. `.github/workflows/ism-hourly.yml` runs `capture/ism_capture.py` twice an hour (:11 and :41 UTC)
 and commits each new valid hour.
 
 | Path | Contents |

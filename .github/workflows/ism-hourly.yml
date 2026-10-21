@@ -1,7 +1,7 @@
 name: ism-hourly
 on:
   schedule:
-    - cron: "23 * * * *"   # hourly at :23 UTC; ESA posts each nowcast about 2 h after its valid time (re-registered 21 Oct)
+    - cron: "11,41 * * * *"   # twice an hour: GitHub drops some scheduled runs; the script skips hours already captured. ~1,440 min/month (free tier 2,000)
   workflow_dispatch:
 permissions:
   contents: write
