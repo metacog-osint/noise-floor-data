@@ -1,0 +1,2 @@
+valid_utc,captured_utc,global_max_s4,global_max_sigma_phi,n_s4_mod,n_s4_sev,n_sp_mod,n_sp_sev,centcom_max_s4,centcom_max_sigma_phi,eucom_max_s4,eucom_max_sigma_phi,africom_max_s4,africom_max_sigma_phi,indopacom_max_s4,indopacom_max_sigma_phi,northcom_max_s4,northcom_max_sigma_phi,southcom_max_s4,southcom_max_sigma_phi
+2026-10-21T13:00Z,2026-10-21T15:37Z,0.077,0.133,0,0,0,0,0.056,0.040,0.055,0.051,0.072,0.080,0.073,0.053,0.051,0.038,0.077,0.058
