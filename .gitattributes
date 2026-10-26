@@ -1,0 +1,5 @@
+# LF everywhere (the capture also runs on a Windows PC from 26 Oct 2026)
+* text=auto eol=lf
+*.gz binary
+# two machines append rows to the summary; keep both sides' rows when their histories meet
+ism/summary.csv merge=union

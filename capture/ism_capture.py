@@ -60,7 +60,8 @@ def main():
         for name, k, ke in PRODUCTS:
             v, e = grids[name][i]; row += [str(int(round(v * k))), str(int(round(e * ke)))]
         lines.append(",".join(row))
-    with gzip.open(out, "wt", compresslevel=9) as f: f.write("\n".join(lines) + "\n")
+    # bytes, not text mode: LF on every OS, and mtime 0 so two machines capturing the same hour write identical files
+    with open(out, "wb") as f: f.write(gzip.compress(("\n".join(lines) + "\n").encode(), compresslevel=9, mtime=0))
     # summary
     lon = [float(a) for a, _ in cells]; lat = [float(b) for _, b in cells]
     s4 = [v for v, _ in grids["s4"]]; sp = [v for v, _ in grids["sigma_phi"]]
@@ -74,7 +75,7 @@ def main():
         vals += [f"{max(s4[i] for i in idx):.3f}", f"{max(sp[i] for i in idx):.3f}"]
     spath = os.path.join(ROOT, "ism", "summary.csv")
     new = not os.path.exists(spath)
-    with open(spath, "a") as f:
+    with open(spath, "a", newline="\n") as f:
         if new: f.write(",".join(cols) + "\n")
         f.write(",".join(str(v) for v in vals) + "\n")
     print("captured", vt, os.path.getsize(out), "bytes; global max S4", vals[2], "sigma-phi", vals[3])
