@@ -16,7 +16,13 @@ and commits each new valid hour.
 | `ism/summary.csv` | One row per valid hour: global and per-region max S4 and sigma-phi; counts of cells at ICAO GNSS moderate/severe (S4 0.5/0.8, sigma-phi 0.4/0.7 rad) |
 
 About 27 KB per hour (~240 MB a year). ESA posts each nowcast about 2 hours after its valid time. Hours are missed if
-GitHub delays or skips a scheduled run; gaps show in `summary.csv`.
+no capture runs while an hour is current; gaps show in `summary.csv`.
+
+**Two capture machines (from 26 Oct 2026).** GitHub ran the twice-hourly schedule only every 2-5 hours (25 of about
+120 hours kept, 21-26 Oct), so the capture also runs every 30 minutes (:26 and :56 UTC) from Tom's PC: Noise Floor's
+`collectors/ism_local.py`, Windows task "noise-floor ESA scintillation capture", commits marked "(local)". GitHub
+stays on as the backup. Files are byte-identical whichever machine captures an hour, and `summary.csv` merges by
+union (`.gitattributes`), so a rare double capture can leave two rows for one hour: dedupe on `valid_utc`.
 
 ### Terms (why this repo is private)
 
