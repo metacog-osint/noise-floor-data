@@ -1,0 +1,588 @@
+{
+ "url": "https://web.archive.org/web/20260417034033/https://www.easa.europa.eu/en/domains/air-operations/global-navigation-satellite-system-outages-and-alterations",
+ "tables": [
+  {
+   "days": 7,
+   "date": "2026-04-15",
+   "firs": [
+    {
+     "rank": "1",
+     "region": "EUR",
+     "icao": "LTAA",
+     "name": "Ankara",
+     "spoofing": true,
+     "reported": true
+    },
+    {
+     "rank": "2",
+     "region": "EUR",
+     "icao": "UBBA",
+     "name": "Baku",
+     "spoofing": false,
+     "reported": true
+    },
+    {
+     "rank": "3",
+     "region": "EUR",
+     "icao": "LBSR",
+     "name": "Sofia",
+     "spoofing": true,
+     "reported": true
+    },
+    {
+     "rank": "4",
+     "region": "EUR",
+     "icao": "EETT",
+     "name": "Tallinn",
+     "spoofing": true,
+     "reported": true
+    },
+    {
+     "rank": "5",
+     "region": "MID",
+     "icao": "OMAE",
+     "name": "Emirates",
+     "spoofing": true,
+     "reported": false
+    },
+    {
+     "rank": "6",
+     "region": "EUR",
+     "icao": "ULLL",
+     "name": "Sankt-Peterburg",
+     "spoofing": true,
+     "reported": false
+    },
+    {
+     "rank": "7",
+     "region": "ASIA",
+     "icao": "VYYF",
+     "name": "Yangon",
+     "spoofing": true,
+     "reported": true
+    },
+    {
+     "rank": "8",
+     "region": "EUR",
+     "icao": "UGGG",
+     "name": "Tbilisi",
+     "spoofing": false,
+     "reported": false
+    },
+    {
+     "rank": "9",
+     "region": "EUR",
+     "icao": "UUWV",
+     "name": "Moscow",
+     "spoofing": true,
+     "reported": false
+    },
+    {
+     "rank": "10",
+     "region": "EUR",
+     "icao": "USSV",
+     "name": "Yekaterinburg",
+     "spoofing": false,
+     "reported": false
+    },
+    {
+     "rank": "11",
+     "region": "EUR",
+     "icao": "UWWW",
+     "name": "Samara",
+     "spoofing": false,
+     "reported": false
+    },
+    {
+     "rank": "12",
+     "region": "EUR",
+     "icao": "UATT",
+     "name": "Aktobe",
+     "spoofing": false,
+     "reported": true
+    },
+    {
+     "rank": "13",
+     "region": "EUR",
+     "icao": "URRV",
+     "name": "Rostov-Na-Donu",
+     "spoofing": false,
+     "reported": false
+    },
+    {
+     "rank": "14",
+     "region": "EUR",
+     "icao": "ULWW",
+     "name": "Vologda",
+     "spoofing": false,
+     "reported": false
+    },
+    {
+     "rank": "15",
+     "region": "EUR",
+     "icao": "UMMV",
+     "name": "Minsk",
+     "spoofing": true,
+     "reported": false
+    },
+    {
+     "rank": "16",
+     "region": "EUR",
+     "icao": "ULKK",
+     "name": "Kotlas",
+     "spoofing": false,
+     "reported": false
+    },
+    {
+     "rank": "17",
+     "region": "MID",
+     "icao": "HSSS",
+     "name": "Khartoum",
+     "spoofing": false,
+     "reported": false
+    },
+    {
+     "rank": "18",
+     "region": "EUR",
+     "icao": "UIII",
+     "name": "Irkutsk",
+     "spoofing": false,
+     "reported": false
+    },
+    {
+     "rank": "19",
+     "region": "MID",
+     "icao": "OJAC",
+     "name": "Amman",
+     "spoofing": false,
+     "reported": false
+    }
+   ]
+  },
+  {
+   "days": 30,
+   "date": "2026-04-15",
+   "firs": [
+    {
+     "rank": "1",
+     "region": "EUR",
+     "icao": "LTAA",
+     "name": "Ankara",
+     "spoofing": true,
+     "reported": true
+    },
+    {
+     "rank": "2",
+     "region": "MID",
+     "icao": "OEJD",
+     "name": "Jeddah",
+     "spoofing": true,
+     "reported": true
+    },
+    {
+     "rank": "3",
+     "region": "EUR",
+     "icao": "EFIN",
+     "name": "Helsinki",
+     "spoofing": false,
+     "reported": true
+    },
+    {
+     "rank": "4",
+     "region": "MID",
+     "icao": "HECC",
+     "name": "Cairo",
+     "spoofing": true,
+     "reported": true
+    },
+    {
+     "rank": "5",
+     "region": "EUR",
+     "icao": "LRBB",
+     "name": "Bucuresti",
+     "spoofing": true,
+     "reported": true
+    },
+    {
+     "rank": "6",
+     "region": "EUR",
+     "icao": "EPWW",
+     "name": "Warszawa",
+     "spoofing": true,
+     "reported": true
+    },
+    {
+     "rank": "7",
+     "region": "EUR",
+     "icao": "UBBA",
+     "name": "Baku",
+     "spoofing": false,
+     "reported": true
+    },
+    {
+     "rank": "8",
+     "region": "MID",
+     "icao": "OMAE",
+     "name": "Emirates",
+     "spoofing": true,
+     "reported": false
+    },
+    {
+     "rank": "9",
+     "region": "MID",
+     "icao": "OOMM",
+     "name": "Muscat",
+     "spoofing": true,
+     "reported": false
+    },
+    {
+     "rank": "10",
+     "region": "EUR",
+     "icao": "EETT",
+     "name": "Tallinn",
+     "spoofing": true,
+     "reported": true
+    },
+    {
+     "rank": "11",
+     "region": "EUR",
+     "icao": "LCCC",
+     "name": "Nicosia",
+     "spoofing": true,
+     "reported": true
+    },
+    {
+     "rank": "12",
+     "region": "ASIA",
+     "icao": "VYYF",
+     "name": "Yangon",
+     "spoofing": true,
+     "reported": true
+    },
+    {
+     "rank": "13",
+     "region": "EUR",
+     "icao": "LBSR",
+     "name": "Sofia",
+     "spoofing": true,
+     "reported": true
+    },
+    {
+     "rank": "14",
+     "region": "EUR",
+     "icao": "UGGG",
+     "name": "Tbilisi",
+     "spoofing": true,
+     "reported": false
+    },
+    {
+     "rank": "15",
+     "region": "ASIA",
+     "icao": "VIDF",
+     "name": "Delhi",
+     "spoofing": true,
+     "reported": true
+    },
+    {
+     "rank": "16",
+     "region": "EUR",
+     "icao": "ESAA",
+     "name": "Sweden",
+     "spoofing": true,
+     "reported": true
+    },
+    {
+     "rank": "17",
+     "region": "EUR",
+     "icao": "EVRR",
+     "name": "Riga",
+     "spoofing": true,
+     "reported": true
+    },
+    {
+     "rank": "18",
+     "region": "EUR",
+     "icao": "LTBB",
+     "name": "Istanbul",
+     "spoofing": true,
+     "reported": false
+    },
+    {
+     "rank": "19",
+     "region": "ASIA",
+     "icao": "OPLR",
+     "name": "Lahore",
+     "spoofing": true,
+     "reported": true
+    },
+    {
+     "rank": "20",
+     "region": "EUR",
+     "icao": "ULLL",
+     "name": "Sankt-Peterburg",
+     "spoofing": true,
+     "reported": false
+    },
+    {
+     "rank": "21",
+     "region": "EUR",
+     "icao": "UUWV",
+     "name": "Moscow",
+     "spoofing": true,
+     "reported": false
+    },
+    {
+     "rank": "22",
+     "region": "ASIA",
+     "icao": "VTBB",
+     "name": "Bangkok",
+     "spoofing": true,
+     "reported": true
+    },
+    {
+     "rank": "23",
+     "region": "EUR",
+     "icao": "UNNT",
+     "name": "Novosibirsk",
+     "spoofing": false,
+     "reported": false
+    },
+    {
+     "rank": "24",
+     "region": "EUR",
+     "icao": "USSV",
+     "name": "Yekaterinburg",
+     "spoofing": false,
+     "reported": false
+    },
+    {
+     "rank": "25",
+     "region": "EUR",
+     "icao": "UATT",
+     "name": "Aktobe",
+     "spoofing": false,
+     "reported": true
+    },
+    {
+     "rank": "26",
+     "region": "EUR",
+     "icao": "UWWW",
+     "name": "Samara",
+     "spoofing": false,
+     "reported": false
+    },
+    {
+     "rank": "27",
+     "region": "EUR",
+     "icao": "URRV",
+     "name": "Rostov-Na-Donu",
+     "spoofing": false,
+     "reported": false
+    },
+    {
+     "rank": "28",
+     "region": "AFI",
+     "icao": "HHAA",
+     "name": "Asmara",
+     "spoofing": false,
+     "reported": true
+    },
+    {
+     "rank": "29",
+     "region": "EUR",
+     "icao": "EYVL",
+     "name": "Vilnius",
+     "spoofing": true,
+     "reported": false
+    },
+    {
+     "rank": "30",
+     "region": "EUR",
+     "icao": "ULWW",
+     "name": "Vologda",
+     "spoofing": false,
+     "reported": false
+    },
+    {
+     "rank": "31",
+     "region": "EUR",
+     "icao": "UIII",
+     "name": "Irkutsk",
+     "spoofing": false,
+     "reported": false
+    },
+    {
+     "rank": "32",
+     "region": "MID",
+     "icao": "HSSS",
+     "name": "Khartoum",
+     "spoofing": true,
+     "reported": false
+    },
+    {
+     "rank": "33",
+     "region": "EUR",
+     "icao": "UMMV",
+     "name": "Minsk",
+     "spoofing": true,
+     "reported": false
+    },
+    {
+     "rank": "34",
+     "region": "EUR",
+     "icao": "ULKK",
+     "name": "Kotlas",
+     "spoofing": false,
+     "reported": false
+    },
+    {
+     "rank": "35",
+     "region": "EUR",
+     "icao": "UMKK",
+     "name": "Kaliningrad",
+     "spoofing": true,
+     "reported": false
+    },
+    {
+     "rank": "36",
+     "region": "EUR",
+     "icao": "UDDD",
+     "name": "Yerevan Zvartnots",
+     "spoofing": false,
+     "reported": false
+    },
+    {
+     "rank": "37",
+     "region": "MID",
+     "icao": "OJAC",
+     "name": "Amman",
+     "spoofing": false,
+     "reported": false
+    },
+    {
+     "rank": "38",
+     "region": "EUR",
+     "icao": "ULAA",
+     "name": "Arkhangelsk",
+     "spoofing": false,
+     "reported": false
+    },
+    {
+     "rank": "39",
+     "region": "EUR",
+     "icao": "UKFV",
+     "name": "Simferopol",
+     "spoofing": false,
+     "reported": false
+    },
+    {
+     "rank": "40",
+     "region": "MID",
+     "icao": "OIIX",
+     "name": "Tehran",
+     "spoofing": true,
+     "reported": false
+    },
+    {
+     "rank": "41",
+     "region": "MID",
+     "icao": "OBBB",
+     "name": "Bahrain",
+     "spoofing": false,
+     "reported": false
+    },
+    {
+     "rank": "42",
+     "region": "EUR",
+     "icao": "LLLL",
+     "name": "Tel Aviv",
+     "spoofing": false,
+     "reported": false
+    },
+    {
+     "rank": "43",
+     "region": "EUR",
+     "icao": "USTV",
+     "name": "Tyumen Roschino",
+     "spoofing": false,
+     "reported": false
+    },
+    {
+     "rank": "44",
+     "region": "ASIA",
+     "icao": "VGFR",
+     "name": "Dhaka",
+     "spoofing": false,
+     "reported": false
+    },
+    {
+     "rank": "45",
+     "region": "EUR",
+     "icao": "UACN",
+     "name": "Nur Sultan",
+     "spoofing": false,
+     "reported": false
+    },
+    {
+     "rank": "46",
+     "region": "EUR",
+     "icao": "LUUU",
+     "name": "Chisinau",
+     "spoofing": false,
+     "reported": false
+    },
+    {
+     "rank": "47",
+     "region": "MID",
+     "icao": "OSTT",
+     "name": "Damascus",
+     "spoofing": false,
+     "reported": false
+    },
+    {
+     "rank": "48",
+     "region": "MID",
+     "icao": "OLBB",
+     "name": "Beirut",
+     "spoofing": false,
+     "reported": false
+    },
+    {
+     "rank": "49",
+     "region": "EUR",
+     "icao": "UNKL",
+     "name": "Krasnoyarsk",
+     "spoofing": false,
+     "reported": false
+    },
+    {
+     "rank": "50",
+     "region": "EUR",
+     "icao": "UHHH",
+     "name": "Khabarovsk",
+     "spoofing": false,
+     "reported": false
+    },
+    {
+     "rank": "51",
+     "region": "AFI",
+     "icao": "HCSM",
+     "name": "Mogadishu",
+     "spoofing": false,
+     "reported": false
+    },
+    {
+     "rank": "52",
+     "region": "EUR",
+     "icao": "ENOR",
+     "name": "Polaris",
+     "spoofing": false,
+     "reported": false
+    }
+   ]
+  }
+ ],
+ "credit": "Source: EASA (European Union Aviation Safety Agency), GNSS outages and alterations: impacted FIRs (ADS-B data and reports)",
+ "fetched_utc": "2026-10-27T00:40Z",
+ "archived_utc": "2026-04-17T03:40Z"
+}
