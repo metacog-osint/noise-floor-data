@@ -1,0 +1,102 @@
+{
+ "day": "2026-11-06",
+ "fetched_utc": "2026-11-06T15:32Z",
+ "url": "https://navvarn.sjofartsverket.se/en/Navigationsvarningar/",
+ "warnings": [
+  {
+   "id": "SWEDISH NAV WARN 184/26",
+   "dtg": "030607 UTC NOV",
+   "text": "SWEDISH NAV WARN 184/26 KATTEGAT. GOTHENBURG. LIGHT 'VINGA' IS UNLIT. PSN 57-37.9N 011-36.1E.",
+   "areas": [
+    "Kattegat"
+   ],
+   "gnss": false
+  },
+  {
+   "id": "SWEDISH NAV WARN 182/26",
+   "dtg": "302200 UTC OCT",
+   "text": "SWEDISH NAV WARN 182/26 KATTEGAT. FAIRWAY TO GOTHENBURG. LIGHT 'BÖTTÖ' IS UNLIT. PSN 57-38.9N 011-43.2E.",
+   "areas": [],
+   "gnss": false
+  },
+  {
+   "id": "SWEDISH NAV WARN 166/26",
+   "dtg": "070800 UTC OCT",
+   "text": "SWEDISH NAV WARN 166/26 KATTEGAT. FALKENBERG HARBOUR ENTRANCE. DREDGING IN OPERATION. SPAR BUOYS MIGHT HAVE BEEN MOVED. PSN 56-53.0N 012-28.0E GREATE CAUTION ADVISED",
+   "areas": [],
+   "gnss": false
+  },
+  {
+   "id": "SWEDISH NAV WARN 156/26",
+   "dtg": "300052 UTC SEP",
+   "text": "SWEDISH NAV WARN 156/26 KATTEGAT. STYRSÖ. DONSÖ LIGHT 'DONSÖ SVARTSKÄR' IS UNLIT. PSN 57-35.15N 011-43.33E. Lake Vänern and Trollhätte Canal",
+   "areas": [],
+   "gnss": false
+  },
+  {
+   "id": "SWEDISH NAV WARN 159/26",
+   "dtg": "010929 UTC OCT",
+   "text": "SWEDISH NAV WARN 159/26 LAKE VÄNERN THE LEADING LIGHTS ON DALBOLANDET ARE EXTINGUISHED FOR MAINTENANCE. APPROX. PSN 58-23.6N 012-18.3E. The Sound No current warnings in the area Western Baltic",
+   "areas": [
+    "Lake Vänern and Trollhätte Canal"
+   ],
+   "gnss": false
+  },
+  {
+   "id": "BALTIC SEA NAV WARN 030/26",
+   "dtg": "120912 UTC OCT",
+   "text": "BALTIC SEA NAV WARN 030/26 SOUTHERN, SOUTHEASTERN, CENTRAL AND NORTHERN BALTIC, GULF OF FINLAND, GULF OF RIGA AND SEA OF AALAND. GNSS, AIS, RADAR AND DGPS INTERFERENCE OBSERVED IN AREA. MARINERS ADVISED TO EXERCISE CAUTION AND BE PREPARED FOR NAVIGATION IMPACTS. Southern Baltic",
+   "areas": [
+    "Western Baltic",
+    "Southern Baltic",
+    "South-eastern Baltic",
+    "Northern Baltic",
+    "Sea of Åland and Archipelago Sea"
+   ],
+   "gnss": true
+  },
+  {
+   "id": "SWEDISH NAV WARN 183/26",
+   "dtg": "020507 UTC NOV",
+   "text": "SWEDISH NAV WARN 183/26 CENTRAL BALTIC. GOTLAND. RONEHAMN LIGHT 'RONEHAMN' IS UNLIT. PSN 57-10.32N 018-32.45E.",
+   "areas": [
+    "Central Baltic"
+   ],
+   "gnss": false
+  },
+  {
+   "id": "SWEDISH NAV WARN 172/26",
+   "dtg": "120930 UTC OCT",
+   "text": "SWEDISH NAV WARN 172/26 BAY OF BOTHNIA.GÄVLE.NORRSUNDET... TIMBER ADRIFT IN NORRSUNDET.... TIME FOR OBSERVATION 0916 UTC ON THE 12TH OF OCTOBER. CAUTION ADVICED... The Quark No current warnings in the area Bay of Bothnia",
+   "areas": [
+    "Sea of Bothnia"
+   ],
+   "gnss": false
+  },
+  {
+   "id": "SWEDISH NAV WARN 185/26",
+   "dtg": "050954 UTC NOV",
+   "text": "SWEDISH NAV WARN 185/26 BAY OF BOTHNIA. PORT OF SKELLEFTEÅ. APPROACH TO RÖNNSKÄR. DUE TO FAIRWAY WORK BOUYS ARE MOVED TO UNCHARTED POSITIONS. CAUTION ADVISED. APPROX PSN 64-40.0N 021-18.2E",
+   "areas": [
+    "Bay of Bothnia"
+   ],
+   "gnss": false
+  },
+  {
+   "id": "SWEDISH NAV WARN 165/26",
+   "dtg": "070521 UTC OCT",
+   "text": "SWEDISH NAV WARN 165/26 BAY OF BOTHNIA. LULEÅ. LARSGRUNDET. SÖRBRÄNDÖFJÄRDEN. ANCHOR AND 280 MERTERS CHAIN LOST. PSN 65-27.1N 022-30.0E Other lakes and canals",
+   "areas": [],
+   "gnss": false
+  },
+  {
+   "id": "SWEDISH NAV WARN 178/26",
+   "dtg": "231157 UTC OCT",
+   "text": "SWEDISH NAV WARN 178/26 LAKE VÄTTERN. TWO BLACK-ORANGE STEEL BUOYS ONE METER IN DIAMETER REPORTED ADRIFT AT THE SURFACE. PSN UNKNOWN. AT",
+   "areas": [
+    "Other lakes and canals"
+   ],
+   "gnss": false
+  }
+ ]
+}
