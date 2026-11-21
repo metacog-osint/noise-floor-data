@@ -1,7 +1,8 @@
 # noise-floor-data
 
 Public raw data archive for [Noisefloor](https://github.com/metacog-osint/noise-floor): hourly ESA ionospheric
-scintillation grids and daily copies of two official notice pages.
+scintillation grids, daily copies of EASA's GNSS interference tables, and earlier copies of a Baltic navigational
+warnings page (made 26 Oct to 21 Nov 2026; no new files are added).
 
 > **Using the ESA data means accepting ESA's terms.** By accessing, downloading or using anything under `ism/`, you
 > accept the [ESA S2P Space Weather Data Terms and Conditions](https://swe.ssa.esa.int/documents/d/guest/s2p_swe_data_terms_and_conditions).
@@ -50,17 +51,18 @@ double capture can leave two rows for one hour: dedupe on `valid_utc`.
 
 ## notices/: daily copies of official notice pages
 
-These pages show only what is current, so this archive keeps a dated history. They are historical copies and are not
-for navigation.
+These pages show only what is current, so dated copies keep a history. They are historical copies and are not for
+navigation.
 
 | Path | Contents |
 |---|---|
 | `notices/easa/YYYY-MM-DD.json` | EASA's tables of FIRs with GNSS interference reports (7 and 30 days), one file per UTC day |
 | `notices/easa/wayback-<timestamp>.json` | The same tables, parsed from Internet Archive copies of EASA's page |
-| `notices/baltico/YYYY-MM-DD.html.gz` | The Swedish Maritime Administration's page of Baltic navigational warnings in force (BALTICO) |
-| `notices/baltico/YYYY-MM-DD.json` | The warnings parsed from that page, with GNSS-related ones marked |
+| `notices/baltico/YYYY-MM-DD.html.gz` | Copies made 26 Oct to 21 Nov 2026 of the Swedish Maritime Administration's page of Baltic navigational warnings in force (BALTICO). No new files are added |
+| `notices/baltico/YYYY-MM-DD.json` | The warnings parsed from those copies, with GNSS-related ones marked |
 
 - **EASA:** source: European Union Aviation Safety Agency (EASA), "GNSS outages and alterations". EASA allows
   reproduction with the source acknowledged.
 - **BALTICO:** source: [Swedish Maritime Administration](https://navvarn.sjofartsverket.se/en/Navigationsvarningar/).
   The page states no terms. This repository grants no licence to these copies, and all rights stay with the publisher.
+  Noisefloor's daily capture of this page no longer writes here.
