@@ -1,8 +1,32 @@
-# noise-floor-data (private)
+# noise-floor-data
 
-Raw data archives for [Noise Floor](https://github.com/metacog-osint/noise-floor) that cannot be published.
+Public raw data archive for [Noisefloor](https://github.com/metacog-osint/noise-floor): hourly ESA ionospheric
+scintillation grids and daily copies of two official notice pages.
 
-## ism/ — ESA SWE ISM ionospheric nowcast archive
+> **Using the ESA data means accepting ESA's terms.** By accessing, downloading or using anything under `ism/`, you
+> accept the [ESA S2P Space Weather Data Terms and Conditions](https://swe.ssa.esa.int/documents/d/guest/s2p_swe_data_terms_and_conditions).
+> If you do not accept them, do not access, download or use this data. If you pass the data on, the recipient must
+> accept the same terms.
+>
+> Data provided by the European Space Agency (ESA) as part of its Space Safety Programme (S2P). © ESA (year of reception).
+
+## ESA data terms
+
+This is a summary of the terms as read on 21 Nov 2026. ESA's text controls if the two differ.
+
+- **Use:** the data may be used for peaceful purposes, including scientific, technical, educational and application
+  development work, and in derived products and services (3.1).
+- **No commercial gain:** the data may not be sold, licensed or redistributed to third parties for commercial gain (3.1).
+- **Passing it on:** these free datasets may be redistributed only to third parties who accept ESA's terms, and whoever
+  redistributes them is responsible to ESA for that acceptance (3.2).
+- **Required credit:** any publication, product or other work that uses the data must cite the dataset and state "Data
+  provided by the European Space Agency (ESA) as part of its Space Safety Programme (S2P)" (3.3). It must also attribute
+  "© ESA (year of reception)", for example © ESA 2026 for data received in 2026 (4.3).
+- **No endorsement:** do not state or imply that ESA or its staff endorse a product, process or service (3.1).
+- **Rights and warranty:** ESA keeps all rights in the data (4.1) and provides it as is, without warranty (5.3). This
+  repository grants no licence of its own to the data.
+
+## ism/: ESA SWE ISM ionospheric nowcast archive
 
 ESA's Ionospheric Scintillation Monitoring service (CLS, on the ESA Space Weather Service Network) publishes a worldwide
 nowcast of amplitude scintillation (S4), phase scintillation (sigma-phi) and TEC on a 2.5° grid, but only the current
@@ -19,17 +43,24 @@ About 27 KB per hour (~240 MB a year). ESA posts each nowcast about 2 hours afte
 no capture runs while an hour is current; gaps show in `summary.csv`.
 
 **Two capture machines (from 26 Oct 2026).** GitHub ran the twice-hourly schedule only every 2-5 hours (25 of about
-120 hours kept, 21-26 Oct), so the capture also runs every 30 minutes (:26 and :56 UTC) from Tom's PC: Noise Floor's
-`collectors/ism_local.py`, Windows task "noise-floor ESA scintillation capture", commits marked "(local)". GitHub
-stays on as the backup. Files are byte-identical whichever machine captures an hour, and `summary.csv` merges by
-union (`.gitattributes`), so a rare double capture can leave two rows for one hour: dedupe on `valid_utc`.
+120 hours kept, 21-26 Oct), so the capture also runs every 30 minutes (:26 and :56 UTC) from a second machine, using
+Noisefloor's `collectors/ism_local.py`. Its commits are marked "(local)". GitHub stays on as the backup. Files are
+byte-identical whichever machine captures an hour, and `summary.csv` merges by union (`.gitattributes`), so a rare
+double capture can leave two rows for one hour: dedupe on `valid_utc`.
 
-### Terms (why this repo is private)
+## notices/: daily copies of official notice pages
 
-ESA S2P Space Weather Data Terms and Conditions (read 21 Oct 2026):
-- Data may be used and transformed, including in derived products and services, provided the data itself is not sold,
-  licensed or redistributed for commercial gain (3.1).
-- Free datasets may be redistributed only to third parties who accept the same terms (3.2), so the raw grids stay here.
-- Derived work must state: "Data provided by the European Space Agency (ESA) as part of its Space Safety Programme (S2P)"
-  and attribute "© ESA (year of reception)" (3.3, 4.3).
-- Terms: https://swe.ssa.esa.int/documents/d/guest/s2p_swe_data_terms_and_conditions
+These pages show only what is current, so this archive keeps a dated history. They are historical copies and are not
+for navigation.
+
+| Path | Contents |
+|---|---|
+| `notices/easa/YYYY-MM-DD.json` | EASA's tables of FIRs with GNSS interference reports (7 and 30 days), one file per UTC day |
+| `notices/easa/wayback-<timestamp>.json` | The same tables, parsed from Internet Archive copies of EASA's page |
+| `notices/baltico/YYYY-MM-DD.html.gz` | The Swedish Maritime Administration's page of Baltic navigational warnings in force (BALTICO) |
+| `notices/baltico/YYYY-MM-DD.json` | The warnings parsed from that page, with GNSS-related ones marked |
+
+- **EASA:** source: European Union Aviation Safety Agency (EASA), "GNSS outages and alterations". EASA allows
+  reproduction with the source acknowledged.
+- **BALTICO:** source: [Swedish Maritime Administration](https://navvarn.sjofartsverket.se/en/Navigationsvarningar/).
+  The page states no terms. This repository grants no licence to these copies, and all rights stay with the publisher.
