@@ -66,3 +66,7 @@ navigation.
 - **BALTICO:** source: [Swedish Maritime Administration](https://navvarn.sjofartsverket.se/en/Navigationsvarningar/).
   The page states no terms. This repository grants no licence to these copies, and all rights stay with the publisher.
   Noisefloor's daily capture of this page no longer writes here.
+
+## AI assistance
+
+This repository is built with AI coding assistance (Anthropic's Claude Code). The Intelligence Company is responsible for everything published here.
