@@ -1,0 +1,12 @@
+Noisefloor data: Copyright © 2026 Thomas Brummer, The Intelligence Company.
+The code in this repository (capture/ and .github/workflows/) is licensed under the GNU Affero General Public
+License v3.0 (LICENSE).
+
+The LICENSE file covers that code only. It does not cover the data:
+
+- ism/       ESA scintillation grids, under the ESA S2P Space Weather Data Terms and Conditions. Data provided by
+             the European Space Agency (ESA) as part of its Space Safety Programme (S2P). © ESA (year of reception).
+- notices/   Copies of publishers' notice pages (EASA, Swedish Maritime Administration), under those publishers'
+             terms.
+
+This repository grants no licence of its own to the data. README.md sets out each source's terms and credit.
