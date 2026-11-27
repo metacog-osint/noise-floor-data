@@ -25,5 +25,21 @@ jobs:
           git add ism
           if git diff --cached --quiet; then echo "nothing new"; exit 0; fi
           git commit -m "ism: $(tail -1 ism/summary.csv | cut -d, -f1)"
-          for i in 1 2 3; do git pull --rebase -q && git push && exit 0; sleep 5; done
+          # The PC capture ("(local)" commits) can push the same hour first. Then the rebase stops on an add/add
+          # conflict (21 Nov 2026, 17Z) and every later try failed inside the half-done rebase. Instead: drop this
+          # run's commit, take what is on main, capture again (the script skips hours already there) and push that.
+          for i in 1 2 3; do
+            if git pull --rebase -q; then
+              git push && exit 0
+            else
+              echo "::warning::main already has some of this run's files (likely the PC capture); capturing again on top"
+              git rebase --abort || true
+              git reset -q --hard "@{u}"
+              python capture/ism_capture.py .
+              git add ism
+              if git diff --cached --quiet; then echo "nothing new after main's capture"; exit 0; fi
+              git commit -q -m "ism: $(tail -1 ism/summary.csv | cut -d, -f1)"
+            fi
+            sleep 5
+          done
           exit 1
